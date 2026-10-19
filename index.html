@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+        <style>
+            .body-div{
+                display: flex;
+                padding: 0;
+                margin: 0;
+            }
+            .section1{
+                width: 40%;
+                height: 713px;
+                background-color: rgb(5, 193,138);
+                padding: 0;
+                order: 1;
+            }
+            img{
+                height: 60px;
+                width: 60px;
+                padding: 20px ;
+            }
+            .subtext1{
+                 text-align: center;
+                 margin: 150px 0;
+                 
+            }
+            .subtext1 h2{
+                color: aliceblue;
+                font-size: 36px;
+                letter-spacing: 2px;
+                 word-spacing: 5px;
+            }
+            .subtext1 p{
+                color: aliceblue;
+                font-size: 18px;
+                word-spacing: 2px;
+            }
+            button{
+                height: 50px;
+                width: 200px;
+                font-size: 16px;
+                margin-top: 20px;
+                border-radius: 50px;
+                margin-bottom: 50px;
+            }
+            .btn1{
+                color:rgb(5, 193,138)
+            }
+            button:hover{
+                box-shadow:  10px 10px 10px black;
+                background-color: white;
+                color: rgb(5, 193,138);
+                border-color: rgb(5, 193,138);
+            }
+            .section2{
+                width: 60%;   
+                text-align: center;
+                order: 2;
+            }
+            .sub-section2{
+                margin: 70px 40px;
+            }
+            .sub-section2 h2{
+                font-size: 42px;
+                margin-bottom: 15px;
+                color: rgb(5, 193,138);
+                
+            }
+            .main-circle{
+                display: flex;
+                margin:0 280px;
+                justify-content: space-around;
+            }
+            .main-circle div{
+                height: 45px;
+                width: 45px;
+                border: 2px solid silver;
+                border-radius: 50%;
+            }
+            .main-circle div i{
+                font-size: 23px;
+                padding: 12px 4px;
+                opacity: 0.5;
+            }
+            .sub-section2 p{
+                font-size: 18px;
+                color: silver;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+            .btn2{
+                color: aliceblue;
+                background-color: rgb(5, 193,138);
+            }
+            input{
+                height: 40px;
+                width: 500px;
+                border: 2px solid silver;
+                border-radius:10px;
+                margin-top: 15px;
+                background-color:azure;
+            }
+            input::placeholder{
+                font-size: 16px;
+            }
+            .reset,.login{
+                height: 40px;
+                width: 20%;
+                border: none;
+                font-size: 16px;
+                background-color: white;
+                opacity: 0.5;
+                margin-top: 5px;
+
+            }
+            .reset{
+                float: inline;
+               }
+            .login{
+            margin-left: 180px;
+            }
+
+            .body-div.swap .section1{
+                order:2 ;
+            }
+            .body-div.swap .section2{
+                order: 1;
+            }
+            @media (max-width: 400px){
+                .body-div{
+                    display: none ;
+                }
+                .section1{
+                    width: 100%;
+                    height: 400px;
+                }
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="body-div">
+        
+            <div class="section1"> 
+                <div class="logo"> 
+                    <img src="c:\Users\AadeshKumar\Downloads\ChatGPT Image Sep 7, 2026 at 11_55_14 AM.png" alt="Company Logo">
+                </div>
+                <div class="subtext1">
+                    <h2>Welcome to HATCHDESK Technologies Pvt Ltd</h2>
+                    <p>To keep connected with us please login <br> with your personal info. </p>
+                    <!-- <button class="btn1">SIGN IN </button> -->
+                </div>
+            </div>
+        
+            <div class="section2">
+                <div class="sub-section2">
+                    <h2>Create Account</h2>
+                    <div class="main-circle">
+                        <div><i class="fa-brands fa-facebook-f" ></i></div>
+                        <div><i class="fa-brands fa-twitter"></i></div>
+                        <div><i class="fa-brands fa-square-instagram"></i></div>
+                    </div>
+                    <p>or use your email for registration </p>
+                    <form>
+                        <input type="text" placeholder=" Name"><br>
+                        <input type="tel" maxlength="10" placeholder=" Mobile"><br>
+                        <input type="email" placeholder=" Email"><br>
+                        <input type="password" placeholder=" Password"><br>
+                        <input type="button" class="reset" value="Forgot Password"/>
+                        <input type="button" class="login"  value="Alredy Exists Account "/> <br>
+                        <button class="btn2" id="btnn" type="button">SIGN IN</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script>
+            const container = document.querySelector(".body-div");
+            const btn = document.querySelector("#btnn");
+            btn.addEventListener("click",() => {
+                container.classList.toggle("swap");
+            });
+        </script>
+    </body>
+</html>

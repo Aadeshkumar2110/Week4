@@ -1,0 +1,796 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Bootstrap page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:wght@500&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="container-fluid bg-light position-fixed" id="navbar" style="z-index: 1000">
+    <div class="container py-3">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-2 col-lg-3">
+          <a href="#" class="logo">Colorlib</a>
+        </div>
+
+        <div class="dropdown col-12 col-md-2 col-lg-2">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Social media
+          </button>
+          <div class="dropdown-menu mt-1 p-4 rounded-2">
+            <h3 class="dropdown-header">Projects</h3>
+            <div class="row py-3">
+              <div class="col-6 col-md-6 py-3">
+                <a href="#" class="dropdown-item px-2 py-3">
+                  <div class="d-flex gap-3">
+                    <div class="dropdown-icon "
+                      style="background: linear-gradient(to top right, rgb(144, 61, 79),rgb(205, 124, 124));">
+                      <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div>
+                      <h5>Instagram</h5>
+                      <p>Follow us on Instagram</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item px-2 py-3">
+                  <div class="d-flex gap-3">
+                    <div class="dropdown-icon bg-danger"
+                      style="background: linear-gradient(to top right, rgb(9, 72, 33),rgb(66, 225, 90));">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div>
+                      <h5>Whatsapp</h5>
+                      <p>Follow us on Whatsapp</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item px-2 py-3">
+                  <div class="d-flex gap-3">
+                    <div class="dropdown-icon bg-danger"
+                      style="background: linear-gradient(to top right, rgb(114, 173, 250),rgb(56, 38, 221)); ">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div>
+                      <h5>Linkedin</h5>
+                      <p>Follow us on Linkedin</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6 col-md-6 py-3">
+                <a href="#" class="dropdown-item px-2 py-3">
+                  <div class="d-flex gap-3">
+                    <div class="dropdown-icon bg-danger"
+                      style="background: linear-gradient(to top right, rgb(146, 6, 37),rgb(244, 8, 44));">
+                      <i class="fa-brands fa-square-youtube"></i>
+                    </div>
+                    <div>
+                      <h5>YouTube</h5>
+                      <p>Follow us on YouTube</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item px-2 py-3">
+                  <div class="d-flex gap-3">
+                    <div class="dropdown-icon bg-danger"
+                      style="background: linear-gradient(to top right, rgb(0, 5, 243),rgb(74, 76, 223));">
+                      <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div>
+                      <h5>Facebook</h5>
+                      <p>Follow us on Facebook</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item px-2 py-3">
+                  <div class="d-flex gap-3">
+                    <div class="dropdown-icon bg-danger"
+                      style="background: linear-gradient(to top right, rgb(0, 0, 0),rgb(197, 195, 195));">
+                      <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                    <div>
+                      <h5>Twitter</h5>
+                      <p>Follow us on Twitter</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-2 col-12 col-md-6 col-lg-5">
+          <ul type="none" class="ps-md-0 ps-lg-1 d-flex justify-content-center">
+            <li><a href="#" class="">Blog</a></li>
+            <li> <a href="#freethemes" class="ms-md-2 ms-lg-4">Free Themes</a>
+            </li>
+            <li><a href="#" class="ms-md-2 ms-lg-4">Templates</a></li>
+            <li><a href="#explore-theme" class="ms-md-2 ms-lg-4">Collections</a></li>
+            <li><a href="#" class="ms-md-2 ms-lg-4">Support</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-2 col-lg-2">
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop">
+            <i class="fa-solid fa-circle-user social-icon"><span class="visually-hidden"> User Icon</span></i>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasTop">
+            <div class="offcanvas-header">
+              <div class="offcanvas-header-item d-flex text-center">
+                <div class="offcanvas-header-item-content">
+                  <i class="fa-solid fa-circle-user"></i>
+                </div>
+                <div class="offcanvas-header-item-content">
+                  <h6>Colorlib</h6>
+                  <p>Software</p>
+                </div>
+              </div>
+              <button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas"
+                aria-label="close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="input-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search..." />
+              </div>
+              <div class="offcanvas-content">
+                <ul class="offcanvas-content" type="none">
+                  <li class="offcanvas-content-item">
+                    <a href="#" type="button" data-bs-target="#dashboard">
+                      <i class="fa-solid fa-house"></i>
+                      <h5>Dashboard</h5>
+                    </a>
+                  </li>
+                  <li class="offcanvas-content-item">
+                    <a href="">
+                      <i class="fa-solid fa-chart-simple"></i>
+                      <h5>Revenue</h5>
+                    </a>
+                  </li>
+                  <li class="offcanvas-content-item">
+                    <a href="">
+                      <i class="fa-solid fa-bell"></i>
+                      <h5>Notifications</h5>
+                    </a>
+                  </li>
+                  <li class="offcanvas-content-item">
+                    <a href="">
+                      <i class="fa-solid fa-chart-pie"></i>
+                      <h5>Analytics</h5>
+                    </a>
+                  </li>
+                  <li class="offcanvas-content-item">
+                    <a href="">
+                      <i class="fa-solid fa-heart"></i>
+                      <h5>Likes</h5>
+                    </a>
+                  </li>
+                  <li class="offcanvas-content-item">
+                    <a href="">
+                      <i class="fa-solid fa-wallet"></i>
+                      <h5>Wallets</h5>
+                    </a>
+                  </li>
+                  <li class="offcanvas-content-item">
+                    <a href="">
+                      <i class="fa-solid fa-gear"></i>
+                      <h5>Settings</h5>
+                    </a>
+                  </li>
+                  <hr style="width: 100%" />
+                  <li class="offcanvas-content-item">
+                    <a href="">
+                      <i class="fa-solid fa-right-from-bracket"></i>
+                      <h5>Logout</h5>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="container-fluid px-0" id="home">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-caption" style="z-index: 100">
+          <img src="https://colorlib.com/lib/img/colorlib-logo.png" alt="Company img" />
+          <h1 class="heading">
+            Beautiful WordPress themes and website templates <br />
+            trusted by millions of creators worldwide.
+          </h1>
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-jplenio-1103970.jpg&fm=jpg"
+            alt="Second image" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.freecreatives.com/wp-content/uploads/2016/04/Website-Backgrounds-For-Desktop.jpg"
+            alt="First image" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/008/311/935/non_2x/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg"
+            alt="Third image" />
+        </div>
+      </div>
+      <buttton class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </buttton>
+      <buttton class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </buttton>
+    </div>
+  </section>
+
+  <section class="stats-section container-fluid mt-4">
+    <div class="container">
+      <h2 class="stats-heading py-lg-3 py-0 text-capitalize text-center fw-bold">
+        Colorlib by the Numbers
+      </h2>
+      <div class="stats-conatiner">
+        <div class="row row-cols-2 row-cols-lg-4 align-items-center">
+          <div class="col-6 col-md-3 stats-item">
+            <h3 class="stats-item-heading">13+</h3>
+            <p class="stats-item-label">Years in Business</p>
+          </div>
+          <div class="col-6 col-md-3 stats-item">
+            <h3 class="stats-item-heading">50+</h3>
+            <p class="stats-item-label">Free Themes</p>
+          </div>
+          <div class="col-6 col-md-3 stats-item">
+            <h3 class="stats-item-heading">1000+</h3>
+            <p class="stats-item-label">HTML Templates</p>
+          </div>
+          <div class="col-6 col-md-3 stats-item">
+            <h3 class="stats-item-heading">10M+</h3>
+            <p class="stats-item-label">Downloads</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="continer-fluid">
+    <div class="container mt-lg-5 py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h2 class="about-heading mb-4">
+            Helping Creators Build Beautiful Websites Since 2013
+          </h2>
+          <div class="about-content">
+            <p>
+              Colorlib started with a simple mission: make professional web
+              design accessible to everyone. What began as a small collection
+              of free WordPress themes has grown into one of the most trusted
+              resources for website templates and WordPress themes on the web.
+            </p>
+            <p>
+              Today, our themes and templates power millions of websites
+              across the globe, from personal blogs to business sites,
+              portfolios to e-commerce stores.
+            </p>
+            <ul class="about-list mb-3">
+              <li>Free WordPress themes with premium-quality design</li>
+              <li>1000+ HTML templates for any project</li>
+              <li>Comprehensive tutorials and guides</li>
+              <li>Active community support forum</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="about-card">
+                <div>
+                  <i class="fa-brands fa-wordpress" style="color: #fff"></i>
+                </div>
+                <h2>WordPress Themes</h2>
+                <p>Professional themes ready for any niche</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="about-card">
+                <div>
+                  <i class="fa-solid fa-code" style="color: #fff"></i>
+                </div>
+                <h2>HTML Templates</h2>
+                <p>Modern, responsive Bootstrap templates</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="about-card">
+                <div>
+                  <i class="fa-brands fa-readme" style="color: #fff"></i>
+                </div>
+                <h2>Tutorials</h2>
+                <p>Step-by-step WordPress guides</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="about-card">
+                <div>
+                  <i class="fa-solid fa-users" style="color: #fff"></i>
+                </div>
+                <h2>Community</h2>
+                <p>Active support forum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid bg-light" id="freethemes">
+    <div class="container py-5">
+      <div class="section-header text-center m-5 p-5">
+        <h2>Free WordPress Themes</h2>
+        <p>
+          Launch your website with our professionally designed, fully
+          responsive themes.
+        </p>
+        <hr class="half-rule" />
+      </div>
+      <div class="row row-cols-lg-3 row-cols-md-1 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://colorlib.com/img/flexible-wordpress-theme.webp" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h3 class="card-title">Shapely</h3>
+              <p class="card-text">
+                Powerful one-page theme with full-width home widgets and
+                parallax sections
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://colorlib.com/img/illdy.webp" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h3 class="card-title">Illdy</h3>
+              <p class="card-text">
+                Creative one-page theme ideal for agencies with parallax
+                effects.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://colorlib.com/img/activello.webp" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h3 class="card-title">Activello</h3>
+              <p class="card-text">
+                Minimal multipurpose blog theme with Theme Customizer support.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://colorlib.com/img/sparkling.webp" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h3 class="card-title">Sparkling</h3>
+              <p class="card-text">
+                Highly customizable Bootstrap theme for business websites.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://colorlib.com/img/dazzling.webp" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h3 class="card-title">Dazzling</h3>
+              <p class="card-text">
+                Clean modern theme with fullscreen slider for corporate sites.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://colorlib.com/img/travelify.webp" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h3 class="card-title">Travelify</h3>
+              <p class="card-text">
+                Flexible theme for travel websites, blogs, and corporate
+                sites.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4 mb-3">
+        <a href="https://colorlib.com/#content" class="btn btn-primary btn-lg px-5 py-3 border-0"
+          style="background-color: #3c1479; opacity: 0.8">
+          View All Free Themes</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- <section class="container-fluid">
+    <div class="container">
+      <div class="row ">
+        <div class="col-12 text-center">
+          <h2>HTML Website Template</h2>
+          <p>
+            Over 1000 responsive Bootstrap templates for every industry and
+            purpose.
+          </p>
+          <hr />
+        </div>
+      </div>
+      <div class="row row-cols-3">
+        <div class="col  text-center border border-dark rounded-3">
+          <div class="service-icon bg-danger align-items-center ">
+            <i class="fa-sharp fa-solid fa-shop"></i>
+          </div>
+          <h3>Business</h3>
+        </div>
+        <div class="col  text-center border border-dark rounded-3 py-3">
+          <div class="service-icon bg-danger align-items-center m-auto mb-lg-3">
+            <i class="fa-solid fa-camera"></i>
+          </div>
+          <h3>Portfolio</h3>
+        </div>
+        <div class="col text-center border border-dark rounded-3 py-3">
+          <div class="service-icon bg-danger align-items-center m-auto mb-lg-3">
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+          <h3>eCommerce</h3>
+        </div>
+        <div class="col text-center border border-dark rounded-3 py-3">
+          <div class="service-icon bg-danger align-items-center m-auto mb-lg-3">
+            <i class="fa-solid fa-mug-hot"></i>
+          </div>
+          <h3>Restaurant</h3>
+        </div>
+        <div class="col text-center border border-dark rounded-3 py-3">
+          <div class="service-icon bg-danger align-items-center m-auto mb-lg-3">
+            <i class="fa-solid fa-hospital"></i>
+          </div>
+          <h3>Medical</h3>
+        </div>
+        <div class="col text-center border border-dark rounded-3 py-3">
+          <div class="service-icon bg-danger align-items-center m-auto mb-lg-3">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <h3>Education</h3>
+        </div>
+        <div class="col">
+          <div class="service-icon bg-danger align-items-center m-auto mb-lg-3"></div>
+          <h3>Construction</h3>
+        </div>
+        <div class="col">
+          <div class="service-icon bg-danger align-items-center m-auto mb-lg-3"></div>
+          <h3>Wedding</h3>
+        </div>
+        <div class="col">
+          <div class="service-icon bg-danger align-items-center m-auto mb-lg-3"></div>
+          <h3>Hotel</h3>
+        </div>
+        <div class="col">
+          <div class="service-icon bg-danger align-items-center m-auto mb-lg-3"></div>
+          <h3>Real Estate</h3>
+        </div>
+        <div class="col">
+          <div class="service-icon"></div>
+          <h3>Fitness</h3>
+        </div>
+        <div class="col">
+          <div class="service-icon"></div>
+          <h3>Travel</h3>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+  <section class="container-fluid " id="explore-theme">
+    <div class="container explore py-lg-4 py-md-3 py-2">
+      <div class="row text-center">
+        <div class="col-12 py-lg-5 py-md-3 py-2 explore-title">
+          <h1 class="py-3">Explore Theme Collections</h1>
+          <p>Find the perfect theme for your niche from our curated collections.</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row row-cols-lg-4 row-cols-md-3 row-cols-2 g-3 p-2 explore-themes">
+        <div class="col">
+          <a href="">App Landing Pages</a>
+        </div>
+        <div class="col">
+          <a href="">Creative</a>
+        </div>
+        <div class="col">
+          <a href=""> Hotel</a>
+        </div>
+        <div class="col">
+          <a href="">Parallax</a>
+        </div>
+        <div class="col">
+          <a href=""> Blog</a>
+        </div>
+        <div class="col">
+          <a href=""> Directory</a>
+        </div>
+        <div class="col">
+          <a href="">Job Board</a>
+        </div>
+        <div class="col">
+          <a href="">Photography</a>
+        </div>
+        <div class="col">
+          <a href="">Bootstrap</a>
+        </div>
+        <div class="col">
+          <a href="">eCommerce</a>
+        </div>
+        <div class="col">
+          <a href="">Landing Page</a>
+        </div>
+        <div class="col">
+          <a href="">Portfolio</a>
+        </div>
+        <div class="col">
+          <a href="">Business</a>
+        </div>
+        <div class="col">
+          <a href="">Education </a>
+        </div>
+        <div class="col">
+          <a href="">Lawyer</a>
+        </div>
+        <div class="col">
+          <a href="">Real Estate</a>
+        </div>
+        <div class="col">
+          <a href="">Church</a>
+        </div>
+        <div class="col">
+          <a href="">Fashion</a>
+        </div>
+        <div class="col">
+          <a href="">Magazine</a>
+        </div>
+        <div class="col">
+          <a href="">Restaurant</a>
+        </div>
+        <div class="col">
+          <a href="">Clean</a>
+        </div>
+        <div class="col">
+          <a href="">Fastest</a>
+        </div>
+        <div class="col">
+          <a href="">Multipurpose</a>
+        </div>
+        <div class="col">
+          <a href="">SEO Friendly</a>
+        </div>
+        <div class="col">
+          <a href="">Construction</a>
+        </div>
+        <div class="col">
+          <a href="">Fitness & Gym</a>
+        </div>
+        <div class="col">
+          <a href="">One Page</a>
+        </div>
+        <div class="col">
+          <a href="">Travel</a>
+        </div>
+      </div>
+      <div class="row text-center mt-3 py-4 pb-lg-4 pb-2">
+        <div class="col-12 ">
+          <a href="" class="btn-collection" type="button">View All Collections</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid bg-light">
+    <div class="container mb-lg-5 mb-md-4 mb-3 pb-lg-5 ">
+      <div class="row text-center mt-lg-3">
+        <div class="col-12 py-lg-5 py-md-3 py-2 explore-title">
+          <h1 class="py-3">Why Choose Colorlib?</h1>
+          <p>Find the perfect theme for your niche from our curated collections.</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1 g-lg-5 g-sm-3 g-2 ">
+        <div class="col">
+          <div class="about-card">
+            <div>
+              <i class="fa-solid fa-paintbrush" style="color: #fff"></i>
+            </div>
+            <h2>Premium Quality Design</h2>
+            <p>Every theme is crafted with attention to detail, modern aesthetics, and proven UX patterns.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="about-card">
+            <div>
+              <i class="fa-solid fa-gauge" style="color: #fff"></i>
+            </div>
+            <h2>Optimized for Speed</h2>
+            <p>Clean code and optimized assets ensure your website loads fast and ranks well.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="about-card">
+            <div>
+              <i class="fa-solid fa-mobile" style="color: #fff"></i>
+            </div>
+            <h2>Fully Responsive</h2>
+            <p>Every theme works flawlessly on desktops, tablets, and mobile devices.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="about-card">
+            <div>
+              <i class="fa-solid fa-gear" style="color: #fff"></i>
+            </div>
+            <h2>Easy Customization</h2>
+            <p>WordPress Customizer, Gutenberg blocks, and detailed documentation make setup easy.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="about-card">
+            <div>
+              <i class="fa-solid fa-shield-halved" style="color: #fff"></i>
+            </div>
+            <h2>Secure & Updated</h2>
+            <p>Regular updates ensure compatibility with the latest WordPress versions.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="about-card">
+            <div>
+              <i class="fa-solid fa-headset" style="color: #fff"></i>
+            </div>
+            <h2>Community Support</h2>
+            <p>Get help from our active support forum with thousands of helpful users.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="container-fluid ">
+    <div class="container">
+      <div class="row text-center mt-lg-3">
+        <div class="col-12 py-lg-5 py-md-3 py-2 explore-title">
+          <h1 class="py-3">Latest from Our Blog</h1>
+          <p>WordPress tutorials, web design tips, and industry insights.</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-lg-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/free-wordpress-travel-themes-featured.jpg"
+              alt="" class="card-img-top" />
+            <div class="card-body">
+              <p><i class="fa-regular fa-calendar-days"></i> &ensp; September 10, 2026</p>
+              <h5 class="card-title">14 Best Free Travel WordPress Themes for Blogs, Agencies &#038; Tours 2026</h5>
+              <p class="card-text">
+                Powerful one-page theme with full-width home widgets and
+                parallax sections
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/free-nature-wordpress-themes-featured.jpg"
+              alt="" class="card-img-top" />
+            <div class="card-body">
+              <p><i class="fa-regular fa-calendar-days"></i> &ensp; September 10, 2026</p>
+              <h5 class="card-title">9 Best Free Nature &#038; Environmental WordPress Themes 2026</h5>
+              <p class="card-text">
+                Powerful one-page theme with full-width home widgets and
+                parallax sections
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/free-photography-wordpress-themes-featured.jpg"
+              alt="" class="card-img-top" />
+            <div class="card-body">
+              <p><i class="fa-regular fa-calendar-days"></i> &ensp; September 10, 2026</p>
+              <h5 class="card-title">17 Best Free Photography WordPress Themes for Photographers 2026</h5>
+              <p class="card-text">
+                Powerful one-page theme with full-width home widgets and
+                parallax sections
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center mt-3 py-4 pb-lg-4 pb-2">
+        <div class="col-12 ">
+          <a href="" class="btn-collection" type="button">View All Collections</a>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="container-fluid" style="background: linear-gradient(to top left, #a406d4,#770f70,#7e09a1)">
+    <div class="container py-4 px-3 mx-4">
+      <div class="row row-cols-1 text-center gy-3 text-white">
+        <div class="col py-lg-4 py-md-3 py-2 explore-title">
+          <h2 class="py-3">Stay in the Loop</h2>
+          <p>Get the latest themes, tutorials, and web design tips delivered weekly.</p>
+        </div>
+        <div class="col">
+          <input type="text" class="rounded-2 pe-0 me-0" placeholder="Enter Your Email address" >
+          <button class="bg-light me-0 pe-1 h-100 border rounded-2">Subscribe</button>
+        </div>
+        <div class="col">
+          <p>No spam, ever. Unsubscribe anytime</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- 
+    <section
+      class="container-fluid text-white hero text-center justify-content-center"
+    >
+      <div class="container pt-5">
+        <img
+          src="https://colorlib.com/lib/img/colorlib-logo.png"
+          alt="Company img"
+        />
+        <h1 class="heading">
+          Beautiful WordPress themes and website templates <br />
+          trusted by millions of creators worldwide.
+        </h1>
+        <div class="mt-5">
+          <button
+            class="btn-theme btn border-light btn-light me-3 p-3 px-4"
+            style="color: #5923aa"
+          >
+            Browse Free Themes
+          </button>
+          <button class="btn-temp btn p-3 px-4 border-2">
+            Explore Templates
+          </button>
+        </div>
+      </div>
+    </section> -->
+</body>
+
+</html>

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "Emp-001",
+    "name": "David Johan",
+    "department": "IT",
+    "status": "Active",
+    "contact": "9876543201",
+    "joinDate": "2022-01-15"
+  },
+  {
+    "id": "Emp-002",
+    "name": "Rahul Sharma",
+    "department": "HR",
+    "status": "Active",
+    "contact": "9876543202",
+    "joinDate": "2021-03-10"
+  },
+  {
+    "id": "Emp-003",
+    "name": "Priya Verma",
+    "department": "Finance",
+    "status": "Active",
+    "contact": "9876543203",
+    "joinDate": "2023-06-20"
+  },
+  {
+    "id": "Emp-004",
+    "name": "Amit Kumar",
+    "department": "Marketing",
+    "status": "Inactive",
+    "contact": "9876543204",
+    "joinDate": "2020-11-05"
+  },
+  {
+    "id": "Emp-005",
+    "name": "Neha Singh",
+    "department": "IT",
+    "status": "Active",
+    "contact": "9876543205",
+    "joinDate": "2022-08-12"
+  },
+  {
+    "id": "Emp-006",
+    "name": "Vikas Gupta",
+    "department": "Sales",
+    "status": "Active",
+    "contact": "9876543206",
+    "joinDate": "2021-07-18"
+  },
+  {
+    "id": "Emp-007",
+    "name": "Anjali Patel",
+    "department": "HR",
+    "status": "Inactive",
+    "contact": "9876543207",
+    "joinDate": "2019-09-25"
+  },
+  {
+    "id": "Emp-008",
+    "name": "Rohit Yadav",
+    "department": "IT",
+    "status": "Active",
+    "contact": "9876543208",
+    "joinDate": "2023-02-14"
+  },
+  {
+    "id": "Emp-009",
+    "name": "Pooja Mishra",
+    "department": "Finance",
+    "status": "Active",
+    "contact": "9876543209",
+    "joinDate": "2022-04-08"
+  },
+  {
+    "id": "Emp-010",
+    "name": "Sandeep Jain",
+    "department": "Operations",
+    "status": "Inactive",
+    "contact": "9876543210",
+    "joinDate": "2020-05-19"
+  },
+  {
+    "id": "Emp-011",
+    "name": "Kavita Joshi",
+    "department": "Marketing",
+    "status": "Active",
+    "contact": "9876543211",
+    "joinDate": "2021-12-01"
+  },
+  {
+    "id": "Emp-012",
+    "name": "Manish Tiwari",
+    "department": "IT",
+    "status": "Active",
+    "contact": "9876543212",
+    "joinDate": "2023-09-11"
+  },
+  {
+    "id": "Emp-013",
+    "name": "Simran Kaur",
+    "department": "Sales",
+    "status": "Active",
+    "contact": "9876543213",
+    "joinDate": "2022-10-17"
+  },
+  {
+    "id": "Emp-014",
+    "name": "Arjun Mehta",
+    "department": "Finance",
+    "status": "Inactive",
+    "contact": "9876543214",
+    "joinDate": "2019-04-22"
+  },
+  {
+    "id": "Emp-015",
+    "name": "Sneha Kapoor",
+    "department": "HR",
+    "status": "Active",
+    "contact": "9876543215",
+    "joinDate": "2024-01-08"
+  },
+  {
+    "id": "Emp-016",
+    "name": "Karan Malhotra",
+    "department": "IT",
+    "status": "Active",
+    "contact": "9876543216",
+    "joinDate": "2021-06-14"
+  },
+  {
+    "id": "Emp-017",
+    "name": "Ritu Agarwal",
+    "department": "Operations",
+    "status": "Inactive",
+    "contact": "9876543217",
+    "joinDate": "2020-02-27"
+  },
+  {
+    "id": "Emp-018",
+    "name": "Deepak Chauhan",
+    "department": "Sales",
+    "status": "Active",
+    "contact": "9876543218",
+    "joinDate": "2023-04-03"
+  },
+  {
+    "id": "Emp-019",
+    "name": "Meena Reddy",
+    "department": "Finance",
+    "status": "Active",
+    "contact": "9876543219",
+    "joinDate": "2022-07-21"
+  },
+  {
+    "id": "Emp-020",
+    "name": "Varun Bansal",
+    "department": "Marketing",
+    "status": "Inactive",
+    "contact": "9876543220",
+    "joinDate": "2018-12-10"
+  },
+  {
+    "id": "Emp-021",
+    "name": "Shreya Das",
+    "department": "IT",
+    "status": "Active",
+    "contact": "9876543221",
+    "joinDate": "2024-03-18"
+  },
+  {
+    "id": "Emp-022",
+    "name": "Nikhil Saini",
+    "department": "HR",
+    "status": "Active",
+    "contact": "9876543222",
+    "joinDate": "2021-08-09"
+  },
+  {
+    "id": "Emp-023",
+    "name": "Isha Khanna",
+    "department": "Sales",
+    "status": "Inactive",
+    "contact": "9876543223",
+    "joinDate": "2020-10-16"
+  },
+  {
+    "id": "Emp-024",
+    "name": "Mohit Saxena",
+    "department": "Operations",
+    "status": "Active",
+    "contact": "9876543224",
+    "joinDate": "2022-02-28"
+  },
+  {
+    "id": "Emp-025",
+    "name": "Tanvi Arora",
+    "department": "Finance",
+    "status": "Active",
+    "contact": "9876543225",
+    "joinDate": "2023-07-07"
+  },
+  {
+    "id": "Emp-026",
+    "name": "Akash Pandey",
+    "department": "IT",
+    "status": "Inactive",
+    "contact": "9876543226",
+    "joinDate": "2019-11-13"
+  },
+  {
+    "id": "Emp-027",
+    "name": "Nisha Thakur",
+    "department": "Marketing",
+    "status": "Active",
+    "contact": "9876543227",
+    "joinDate": "2021-05-24"
+  },
+  {
+    "id": "Emp-028",
+    "name": "Rakesh Yadav",
+    "department": "Sales",
+    "status": "Active",
+    "contact": "9876543228",
+    "joinDate": "2022-09-06"
+  },
+  {
+    "id": "Emp-029",
+    "name": "Divya Nair",
+    "department": "HR",
+    "status": "Active",
+    "contact": "9876543229",
+    "joinDate": "2024-02-12"
+  },
+  {
+    "id": "Emp-030",
+    "name": "Saurabh Mishra",
+    "department": "Operations",
+    "status": "Inactive",
+    "contact": "9876543230",
+    "joinDate": "2020-06-30"
+  },
+  {
+    "id": "Emp-031",
+    "name": "Aarti Sharma",
+    "department": "IT",
+    "status": "Active",
+    "contact": "9876543231",
+    "joinDate": "2023-11-01"
+  },
+  {
+    "id": "Emp-032",
+    "name": "Gaurav Saxena",
+    "department": "Finance",
+    "status": "Active",
+    "contact": "9876543232",
+    "joinDate": "2021-01-19"
+  },
+  {
+    "id": "Emp-033",
+    "name": "Payal Chawla",
+    "department": "Marketing",
+    "status": "Inactive",
+    "contact": "9876543233",
+    "joinDate": "2019-07-15"
+  },
+  {
+    "id": "Emp-034",
+    "name": "Abhishek Raj",
+    "department": "Sales",
+    "status": "Active",
+    "contact": "9876543234",
+    "joinDate": "2022-12-05"
+  },
+  {
+    "id": "Emp-035",
+    "name": "Komal Bhatia",
+    "department": "HR",
+    "status": "Active",
+    "contact": "9876543235",
+    "joinDate": "2023-05-16"
+  },
+  {
+    "id": "Emp-036",
+    "name": "Rajat Khurana",
+    "department": "IT",
+    "status": "Active",
+    "contact": "9876543236",
+    "joinDate": "2020-03-09"
+  },
+  {
+    "id": "Emp-037",
+    "name": "Swati Dubey",
+    "department": "Operations",
+    "status": "Inactive",
+    "contact": "9876543237",
+    "joinDate": "2021-10-28"
+  },
+  {
+    "id": "Emp-038",
+    "name": "Pankaj Verma",
+    "department": "Finance",
+    "status": "Active",
+    "contact": "9876543238",
+    "joinDate": "2024-04-22"
+  },
+  {
+    "id": "Emp-039",
+    "name": "Riya Sen",
+    "department": "Marketing",
+    "status": "Active",
+    "contact": "9876543239",
+    "joinDate": "2022-06-13"
+  },
+  {
+    "id": "Emp-040",
+    "name": "Harsh Vardhan",
+    "department": "IT",
+    "status": "Inactive",
+    "contact": "9876543240",
+    "joinDate": "2018-08-20"
+  },
+  {
+    "id": "Emp-041",
+    "name": "Preeti Sinha",
+    "department": "HR",
+    "status": "Active",
+    "contact": "9876543241",
+    "joinDate": "2023-01-23"
+  },
+  {
+    "id": "Emp-042",
+    "name": "Ajay Thakur",
+    "department": "Sales",
+    "status": "Active",
+    "contact": "9876543242",
+    "joinDate": "2021-04-12"
+  },
+  {
+    "id": "Emp-043",
+    "name": "Muskan Ali",
+    "department": "Finance",
+    "status": "Inactive",
+    "contact": "9876543243",
+    "joinDate": "2020-09-07"
+  },
+  {
+    "id": "Emp-044",
+    "name": "Varsha Pillai",
+    "department": "Operations",
+    "status": "Active",
+    "contact": "9876543244",
+    "joinDate": "2022-11-29"
+  },
+  {
+    "id": "Emp-045",
+    "name": "Yash Malhotra",
+    "department": "IT",
+    "status": "Active",
+    "contact": "9876543245",
+    "joinDate": "2024-05-06"
+  },
+  {
+    "id": "Emp-046",
+    "name": "Sakshi Jain",
+    "department": "Marketing",
+    "status": "Inactive",
+    "contact": "9876543246",
+    "joinDate": "2019-02-18"
+  },
+  {
+    "id": "Emp-047",
+    "name": "Ankit Rawat",
+    "department": "Sales",
+    "status": "Active",
+    "contact": "9876543247",
+    "joinDate": "2023-08-14"
+  },
+  {
+    "id": "Emp-048",
+    "name": "Nandini Roy",
+    "department": "HR",
+    "status": "Active",
+    "contact": "9876543248",
+    "joinDate": "2021-09-30"
+  },
+  {
+    "id": "Emp-049",
+    "name": "Sameer Qureshi",
+    "department": "Finance",
+    "status": "Inactive",
+    "contact": "9876543249",
+    "joinDate": "2020-01-06"
+  },
+  {
+    "id": "Emp-050",
+    "name": "Tanya Kapoor",
+    "department": "IT",
+    "status": "Active",
+    "contact": "9876543250",
+    "joinDate": "2024-06-17"
+  }
+]

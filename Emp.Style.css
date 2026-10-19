@@ -1,0 +1,63 @@
+.menu{
+    height: 100%;
+}
+/* .menu-header{
+
+} */
+/* .menu-header-title{
+
+} */
+.menu-body{
+    margin-top: 1.3rem;
+    padding-left: 5px;
+    letter-spacing: 0.5px;
+}
+.menu-body p {
+    font-size: 14px;
+    color:#221711;
+}
+/* .menu-body ul {
+    
+} */
+.menu-body ul li{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.menu-body ul li a{
+     color: #221711;
+    text-decoration: none;
+}
+
+.navbar-header{
+    padding-left: 50px;
+    line-height: 7px;
+    padding-right:  200px;
+}
+.navbar-body{
+    padding-left : 350px;
+}
+.navbar-body ul li{
+    font-size: 17px;
+}
+.data-header h4{
+    margin-right: 250px;
+    
+}
+.data-header input{
+    margin-left: 210px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.data-header button{
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 10px; 
+}
+
+.card{
+    border: 1px solid #e0f2e9;
+    border-radius: 12px;
+}
