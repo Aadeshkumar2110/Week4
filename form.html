@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Registration Form</title>
+    <link rel="stylesheet" href="formStyle.css">
+</head>
+<body>
+
+    <main class="page-container">
+        <section class="form-card">
+            <div class="form-header">
+                <div class="header-icon">✦</div>
+                <h1>Create Your Account</h1>
+                <p>Complete the form below to register.</p>
+            </div>
+
+            <form id="registrationForm" novalidate>
+                <h3 class="section-title">Personal Information</h3>
+
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="fullName">Full Name <span>*</span></label>
+                        <input type="text" id="fullName" placeholder="Enter full name">
+                        <small id="nameError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span>*</span></label>
+                        <input type="email" id="email" placeholder="you@example.com">
+                        <small id="emailError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span>*</span></label>
+                        <input type="tel" id="phone" placeholder="10-digit number">
+                        <small id="phoneError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dob">Date of Birth <span>*</span></label>
+                        <input type="date" id="dob">
+                        <small id="dobError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Gender <span>*</span></label>
+                        <select id="gender">
+                            <option value="">Select gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <small id="genderError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="department">Department <span>*</span></label>
+                        <select id="department">
+                            <option value="">Select department</option>
+                            <option value="IT">IT</option>
+                            <option value="HR">HR</option>
+                            <option value="Finance">Finance</option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="Sales">Sales</option>
+                        </select>
+                        <small id="departmentError"></small>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="address">Address <span>*</span></label>
+                        <textarea id="address" rows="3"
+                            placeholder="Enter your complete address"></textarea>
+                        <small id="addressError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="city">City <span>*</span></label>
+                        <input type="text" id="city" placeholder="Enter city">
+                        <small id="cityError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pincode">Pincode <span>*</span></label>
+                        <input type="text" id="pincode" placeholder="6-digit pincode">
+                        <small id="pincodeError"></small>
+                    </div>
+                </div>
+
+                <h3 class="section-title security-title">Security Information</h3>
+
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="password">Password <span>*</span></label>
+                        <input type="password" id="password" placeholder="Create password">
+                        <small id="passwordError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password <span>*</span></label>
+                        <input type="password" id="confirmPassword"
+                            placeholder="Confirm password">
+                        <small id="confirmError"></small>
+                    </div>
+                </div>
+
+                <div class="terms">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I agree to the Terms and Conditions.</label>
+                </div>
+                <small id="termsError"></small>
+
+                <button type="submit" id="submitBtn">Create Account</button>
+                <p id="message" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <script src="formJS.js"></script>
+</body>
+</html>
